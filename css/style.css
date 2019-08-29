@@ -1,0 +1,86 @@
+/*------------------------------------------------------------*/
+/* FONTS */
+/* FONTS */
+/*------------------------------------------------------------*/
+/* TYPOGRAPHY */
+.as-tpg {}
+    .as-tpg p {}
+    .as-tpg blockquote {}
+    .as-tpg img {}
+
+    .as-tpg a {}
+    .as-tpg a:hover {}
+    .as-tpg a:visited {}
+
+    .as-tpg ul {}
+    .as-tpg ol {}
+    .as-tpg li {}
+
+    .as-tpg table {}
+    .as-tpg tr {}
+    .as-tpg td {}
+
+    .as-tpg h1, .as-tpg h2, .as-tpg h3, .as-tpg h4, .as-tpg h5, .as-tpg h6 {}
+    .as-tpg h1 {}
+    .as-tpg h2 {}
+    .as-tpg h3 {}
+    .as-tpg h4 {}
+    .as-tpg h5 {}
+    .as-tpg h6 {}
+
+    .as-tpg b { font-weight: bold; }
+    .as-tpg i { font-style: italic; }
+/* /TYPOGRAPHY */
+/*------------------------------------------------------------*/
+/* TAGS */
+body {}
+/* /TAGS */
+/*------------------------------------------------------------*/
+/* CLASSES */
+/* /CLASSES */
+/*------------------------------------------------------------*/
+/* TEMPLATES */
+.as-main {}
+/*.....................................*/
+.as-header {}
+/*.....................................*/
+.as-content {}
+/*.....................................*/
+.as-sidebar {}
+/*.....................................*/
+.as-footer {}
+/* /TEMPLATES */
+
+/*------------------------------------------------------------*/
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.gallery {
+    width: 455px;
+    margin: auto;
+    margin-top: 10px;
+}
+.poster-img {
+    height: 615px;
+}
+.poster-img img {
+    opacity: 1;
+    transition: all 1s;
+}
+.menu-img {
+    list-style: none;
+}
+.nav-img img {
+    float: left;
+    width: 65px;
+    height: 87px;
+}
+.nav-img img:hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.nav-active {
+    opacity: 0.5;
+}
